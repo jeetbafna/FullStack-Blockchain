@@ -13,6 +13,7 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
-    "fsevents": "^2.3.2"
+    "fsevents": "^2.3.2",
+    "hex-to-binary": "^1.0.1"
   }
 }
