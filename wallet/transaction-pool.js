@@ -12,6 +12,10 @@ class TransactionPool {
 
 		return transactions.find(transaction => transaction.input.address === inputAddress)
 	}
+
+	setMap(transactionMap){
+		this. transactionMap = transactionMap;
+	}
 }
 
 module.exports = TransactionPool;
